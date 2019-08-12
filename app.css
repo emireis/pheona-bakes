@@ -1,23 +1,55 @@
 body {
     background: #ffe4e1;
-    font-family: "Nunito", sans-serif;
-
+    /* font-family: 'Sofia', cursive; */
+    font-family: 'Rochester', cursive;
+    letter-spacing: .15rem;
+    color: white;
 }
 
 #mainNavbar {
-    font-size: 1.5rem;
+    background: white;
+    font-size: 2rem;
     font-weight: 100;
     letter-spacing: .05rem;
 }
 
 #mainNavbar .nav-link {
-    color: white;
+    color: #2FB144;
 }
 
 #mainNavbar .nav-link:hover {
-    color: rgb(121, 74, 78);
+    color: #FAF323;
+}
+
+#mainNavbar .navbar-toggler {
+    border: 2px solid #2FB144; 
 }
 
 #mainNavbar .navbar-brand {
-    color: #EA1C2C;
+    font-family: 'Rochester', cursive;
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: .05rem;
+    color: #2FB144;
+}
+
+.headingGroup h2 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.blurb p {
+    color: white;
+    font-size: 1rem;
+}
+
+.content {
+    margin-top: 80px;
+}
+
+@media (max-width: 1200px) {
+    .headingGroup h2 {
+        font-weight: 100;
+        font-size: 4rem;
+    }
 }
